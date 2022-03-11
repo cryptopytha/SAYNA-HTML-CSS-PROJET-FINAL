@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+
+}
+/* en tete */
+header{
+    background-color:  #d35649;
+    height: 10vh;
+
+} 
+header .flex1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* logo */
+header .flex1 .logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+}
+ nav a{
+    padding-right: 1em;
+    text-decoration: none;
+    color: #fff;
+}
+nav a i{
+    padding-right: 1em;
+}
+/* corp */
+/* 1ére partie */
+.bloc1{
+    text-align: center;
+    height: 98vh;
+    background-image: url(/asset/image/Images/group-1.jpg);
+    background-size: cover;
+}
+.bloc1 p {
+    padding-top: 10em;
+    padding-bottom: 3em;
+}
+.bloc1 form{
+    height: 15vh;
+    background-color: #fff;
+    margin-left: 8em;
+    margin-right: 8em;
+
+}
+/* 2éme partie */
+.bloc2{
+    height: auto;
+}
+.bloc2{
+    text-align: center;
+    padding-top: 1em;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+}
+.container1 .element{
+    text-align: center;
+    padding-top: 1.9em;
+    padding-bottom: 2em;
+}
+/* 3éme partie */
+.bloc3{
+    height: auto;
+    background-color: #d35649;
+    text-align: center;
+}
+.container3 {
+    display: flex;
+    justify-content: space-between;
+}
+.container3 .element3{
+    width: 100%;
+    padding: 2.9em;
+}
+.container3 .element3 button{
+    border: 1px solid #fff;
+}
+.container3 .element4{
+    display: flex;
+    justify-content: end;
+    padding: 2em;
+}
+.container3 .element4 img{
+   border-radius: 50%;
+}
+/* 4éme partie */
+.bloc4{
+    background-color:  #98a5a5;
+    height: auto;
+}
+.text-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-image .element6{
+    display: flex;
+    justify-content: end;
+    padding: 2em;
+}
+.text-image .element5 button{
+    border: 1px solid #fff;
+}
+.text-image .element5{
+    padding: 2em;
+}
+.text-image .element6 img{
+    border-radius: 50%;
+}
+/* 5éme partie */
+.bloc5{
+    background-color: #509bd7;
+}
+.text-image2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-image2 .element7{
+    width: 100%;
+    padding: 2em;
+}
+.text-image2 .element8{
+    display: flex;
+    justify-content: end;
+    padding: 2em;
+}
+.text-image2 .element8 img{
+    border-radius: 50%;
+}
+/* pied de l'index */
+footer{
+    color: #fff;
+}
+.footer-p1{
+    height: 10vh;
+    background-color: #1f1f1f  ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.footer-p1 .tirer{
+    padding: 1em;
+    border-top: 1px solid #fff;
+    border-bottom:1px solid #fff;
+}
+.footer-p1 .rond i{
+    text-align: center;
+}
+.footer-p1 .rond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vh;
+    height: 10vh;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.footer-p1 a{
+    color: #fff;
+    padding-left: 2em;
+    text-decoration: none;
+}
+.footer-flex{
+    height: 10vh;
+    background-color:  #1f1f1f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-flex input{
+    text-align: center;
+    border: 1px solid #444;
+    background-color: #1f1f1f;
+
+}
+.footer-flex button{
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #444;
+}
+.email{
+    color: #d35649;
+}
+.link-color a{
+    color: #d35649;
+}
+.footre-copy{
+    height: 5vh;
+    background-color: #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* responsive de l'index */
+@media only screen and (max-width: 600px) {
+    /* en-tete */
+    header{
+        height: 15vh;
+    }
+    header .flex1 .logo {
+        display: flex;
+        justify-content: center;
+        
+    }
+    /* logo */
+    .logo h1{
+        padding-left: 1em;
+    }
+    nav{
+        padding-top: 1.2em;
+    }    
+    nav  .none{
+        display: none;
+    }
+    header .flex1{
+        display: flex;
+        flex-direction: column;
+    }
+    /* pied */
+    .footer-p1{
+    display: none;
+    }
+    .footer-flex{
+        display: none;
+    }
+    .footre-copy{
+        display: flex;
+        flex-direction: column;
+    }
+    .footre-copy{
+        padding: 1em;
+        height: 10vh;
+    }
+}
