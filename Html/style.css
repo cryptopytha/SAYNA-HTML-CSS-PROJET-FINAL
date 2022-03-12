@@ -17,6 +17,14 @@ header .flex1{
     justify-content: space-between;
     align-items: center;
 }
+nav a:hover{
+    color: #444;
+}
+.logo  a{
+    font-size: 2em;
+    color: #fff;
+    text-decoration: none;
+}
 /* logo */
 header .flex1 .logo{
     display: flex;
@@ -40,20 +48,47 @@ nav a i{
     background-image: url(/asset/image/Images/group-1.jpg);
     background-size: cover;
 }
+.bloc1 form h6{
+    padding-bottom: 1em;
+}
 .bloc1 p {
+    font-size: 1.2em;
     padding-top: 10em;
     padding-bottom: 3em;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
 }
 .bloc1 form{
     height: 15vh;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.438);
     margin-left: 8em;
     margin-right: 8em;
-
+    
+}
+.bloc1 form button{
+    background-color: red;
+    border: 1px solid red;
+}
+input{
+    height: 18m;
+    text-align: center;
+}
+form h6{
+    padding-top: 2.8em;
+}
+.bloc1 .bg-w button{
+    background-color: #fff;
+    height: auto;
+    padding: 1em;
+    border: 1px solid white;
 }
 /* 2éme partie */
 .bloc2{
     height: auto;
+}
+.bloc2 h3{
+    color: #d35649;
+    font-size: 1.7em;
 }
 .bloc2{
     text-align: center;
@@ -92,6 +127,9 @@ nav a i{
 }
 .container3 .element4 img{
    border-radius: 50%;
+}
+button a{
+    text-decoration: none;
 }
 /* 4éme partie */
 .bloc4{
@@ -142,9 +180,13 @@ nav a i{
 footer{
     color: #fff;
 }
+.espace{
+    background-color:  #1f1f1f;
+    height: auto;
+}
 .footer-p1{
+    padding-top: 2em;
     height: 10vh;
-    background-color: #1f1f1f  ;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -172,8 +214,8 @@ footer{
     text-decoration: none;
 }
 .footer-flex{
-    height: 10vh;
-    background-color:  #1f1f1f;
+    height: 20vh;
+    padding-bottom: 2em;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -189,11 +231,19 @@ footer{
     color: #fff;
     border: 1px solid #444;
 }
-.email{
+.email a:hover{
+    text-decoration: underline;
+}
+.email a{
     color: #d35649;
+    text-decoration: none;
+}
+.link-color p a:hover{
+    text-decoration: underline;
 }
 .link-color a{
     color: #d35649;
+    text-decoration: none;
 }
 .footre-copy{
     height: 5vh;
@@ -201,6 +251,9 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.rs i:hover{
+    color: #509bd7;
 }
 /* responsive de l'index */
 @media only screen and (max-width: 600px) {
@@ -226,6 +279,70 @@ footer{
     header .flex1{
         display: flex;
         flex-direction: column;
+    }
+    /* corp */
+    /* 1ere paartie */
+    .bloc1{
+        color: #fff;
+        background-image: url(/asset/image/Images/group-1.jpg);
+        background-size: cover;
+    }
+    .bloc1 form{
+        width: auto;
+    }
+    .bloc1 input{
+        width: 200px;
+    }
+    /* 2éme partie */
+    .bloc2{
+        display: none;
+    }
+    /* 3éme partie */
+    .bloc3 .container3{
+        text-align: center;
+        padding: 2em;
+    }
+    .bloc3 .element3{
+        padding: 1em;
+        text-align: center;
+        border-radius: 10%;
+        height: 25vh;
+        color: #fff;
+        background-image: url(/asset/image/Images/group-2.jpg);
+        background-size: cover;
+    }
+    .element4 img{
+        display: none;
+    }
+    /* 4éme partie */
+    .bloc4 .text-image{
+        padding: 2em;
+    }
+    .bloc4 .element5{
+        text-align: center;
+        border-radius: 10%;
+        height: 25vh;
+        color: #fff;
+        background-image: url(/asset/image/Images/group-3.jpg);
+        background-size: cover;
+    }
+    .element6 img{
+        display: none;
+    }
+    /* 5éme partie */
+    .bloc5 .element7{
+        text-align: center;
+        border-radius: 20%;
+        height: 25vh;
+        color: #fff;
+        background-image: url(/asset/image/Images/group-4.jpg);
+        background-size: cover;
+    }
+    .bloc5 .text-image2{
+        padding: 2em;
+    }
+    .element8 img{
+        display: none;
     }
     /* pied */
     .footer-p1{

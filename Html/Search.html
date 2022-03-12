@@ -16,11 +16,11 @@
         <div class="flex1">
             <div class="logo">
                 <img src="/asset/image/Images/group-2.svg" style="width: 8%;" alt="">
-                <h1>[Events]</h1>
+                <a href="index.html">[Events]</a>
             </div>
             <nav>
-                <a href=""><i class="fa-solid fa-magnifying-glass"></i><span class="none">Search</span></a>
-                <a href=""><i class="fa-solid fa-user"></i><span class="none">About</span></a>
+                <a href="Search.html"><i class="fa-solid fa-magnifying-glass"></i><span class="none">Search</span></a>
+                <a href="About.html"><i class="fa-solid fa-user"></i><span class="none">About</span></a>
                 <a href=""><i class="fa-solid fa-rss"></i><span class="none">Blog</span> </a>
                 <a href=""><i class="fa-solid fa-bars"></i><span class="none">More</span> </a>
             </nav>
@@ -34,7 +34,7 @@
                 <div class="grid-1">
                     <div class="grid-item">
                         <form action="" method="">
-                            <p>Location</p>
+                            <label for="local">Location</label>
                             <input type="text">
                         </form>
                     </div>
@@ -53,24 +53,27 @@
                     <div class="grid-item">
                         <form action="" method="">
                             <p>Initial date</p>
-                            <input type="text">
+                            <input type="date">
                         </form>
                     </div>
                     <div class="grid-item">
                         <form action="" method="">
                             <p>Final date</p>
-                            <input type="text">
+                            <input type="date">
                         </form>
                     </div>
                     <div class="grid-item">
                         <form action="" method="">
-                            <p>datetime </p>
-                            <input type="text">
+                            <label for="pet-select">datetime</label> <br>
+                            <select name="pets" id="pet-select">
+                                <option value="">-- choose--</option>
+                                <option value="cat">back-end</option>
+                            </select>
                         </form>
                     </div>
                     <div class="grid-item">
-                        <button>Search</button>
-                        <button>Clear Filter</button>
+                        <button><span class="bl"> Search</span></button>
+                        <button><i class="fa-regular fa-pen-to-square"></i><span class="col">Clear Filter</span> </button>
                     </div>
                 </div>
             </div>
@@ -78,13 +81,13 @@
                 <h2>Search Result Found 7 [Events] Nearby</h2>
                 <div class="grid-2">
                     <div class="item">
-                        <img src="/asset/image/Images/group-2.svg" alt="" style="width: 60%;">
+                         <a href="About.html"><img src="/asset/image/Images/group-2.svg" alt="" style="width: 60%;"></a>
                     </div>
                     <div class="item">
-                        <img src="/asset/image/Images/group-2.svg" alt="" style="width: 60%;">
+                        <a href="About.html"><img src="/asset/image/Images/group-2.svg" alt="" style="width: 60%;"></a>
                     </div>
                     <div class="item">
-                        <img src="/asset/image/Images/group-2.svg" alt="" style="width: 60%;">
+                        <a href="About.html"><img src="/asset/image/Images/group-2.svg" alt="" style="width: 60%;"></a>
                     </div>
                 </div>
             </div>
@@ -92,42 +95,44 @@
     </main>
     <!-- pied -->
     <footer>
-        <div class="footer-p1">
-            <div class="tirer">
-                <a href="">HOME</a>
-                <a href="">SEARCH</a>
-                <a href="">ABOUT US</a>
-                <a href="">ADVERTISE</a>
+        <div class="espace">
+            <div class="footer-p1">
+                <div class="tirer">
+                    <a href="index.html">HOME</a>
+                    <a href="">SEARCH</a>
+                    <a href="">ABOUT US</a>
+                    <a href="index.html">ADVERTISE</a>
+                </div>
+                <div class="rond">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="tirer">
+                    <a href="index.html">FACEBOOK</a>
+                    <a href="index.html">TWITTER</a>
+                    <a href="index.html">INSTAGRAM</a>
+                    <a href="index.html">BLOG</a>
+                </div>
             </div>
-            <div class="rond">
-                <i class="fa-solid fa-location-dot"></i>
+                <div class="footer-flex" >
+                    <div>
+                    <h4>Subscribe</h4> <br>
+                    <form action="" method="">
+                        <input type="email" size="20" placeholder="Insert your e-mail here ">
+                        <button>Send</button>
+                    </form>
+                </div>
+                <div class="email">
+                    <h4>Contact</h4> <br>
+                    <p> Have a question or sugestion</p>
+                    <a href="mailto:contact@events.com?SUBJECT=Ask Me Anything">contact@events.com</a> 
+                </div>
+                <div class="link-color">
+                    <h4>About</h4> <br>
+                    <p>[Events] is an online plataform that works to improve and increase social life <br>
+                    conections, when this nightmare that we are curently living in over <a href="About.html">learn more.</a>
+                    </p>
+                </div> 
             </div>
-            <div class="tirer">
-                <a href="">FACEBOOK</a>
-                <a href="">TWITTER</a>
-                <a href="">INSTAGRAM</a>
-                <a href="">BLOG</a>
-            </div>
-        </div>
-        <div class="footer-flex" >
-            <div>
-                <h4>Subscribe</h4> <br>
-                <form action="" method="">
-                    <input type="email" size="20" placeholder="Insert your e-mail here ">
-                    <button>Send</button>
-                </form>
-            </div>
-            <div>
-                <h4>Contact</h4> <br>
-                <p> Have a question or sugestion</p>
-                <p class="email">contact@events.com</p>
-            </div>
-            <div class="link-color">
-                <h4>About</h4> <br>
-                <p>[Events] is an online plataform that works to improve and increase social life <br>
-                    conections, when this nightmare that we are curently living in over <a href="">learn more.</a>
-                </p>
-            </div> 
         </div>
         <div class="footre-copy">
             <div class="rs">

@@ -24,6 +24,16 @@ header .flex1 .logo{
     align-items: center;
     color: #fff;
 }
+/* logo */
+.logo  a{
+    font-size: 2em;
+    color: #fff;
+    text-decoration: none;
+}
+/* lien de navigation */
+nav a:hover{
+    color: #444;
+}
  nav a{
     padding-right: 1em;
     text-decoration: none;
@@ -74,13 +84,22 @@ nav a i{
     background-color: #d35649;
     gap: 2px;
 }
+.bl{
+    background-color: #509bd7;
+    border: 1px solid #509bd7;
+}
+.col
 /* pied de search */
 footer{
     color: #fff;
 }
+.espace{
+    background-color:  #1f1f1f;
+    height: auto;
+}
 .footer-p1{
     height: 10vh;
-    background-color: #1f1f1f  ;
+    padding-top: 2em;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -108,8 +127,8 @@ footer{
     text-decoration: none;
 }
 .footer-flex{
-    height: 10vh;
-    background-color:  #1f1f1f;
+    height: 20vh;
+    padding-bottom: 2em;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -125,11 +144,20 @@ footer{
     color: #fff;
     border: 1px solid #444;
 }
-.email{
+.email a:hover{
+    text-decoration: underline;
+}
+.email a{
     color: #d35649;
+    text-decoration: none;
+}
+.link-color p a:hover{
+    color: #d35649;
+    text-decoration: underline;
 }
 .link-color a{
     color: #d35649;
+    text-decoration: none;
 }
 .footre-copy{
     height: 5vh;
@@ -137,6 +165,9 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.rs i:hover{
+    color: #509bd7;
 }
 /* responsive de l'index */
 @media only screen and (max-width: 600px) {
