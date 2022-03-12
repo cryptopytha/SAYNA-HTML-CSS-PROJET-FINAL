@@ -75,6 +75,7 @@ nav a i{
     color: blue;
 }
 .c-A{ 
+    color:#fff ;
     margin-left: 550px;
     background-color: blue;
     height: 60px;
@@ -87,10 +88,10 @@ nav a i{
 }
 .c-A a:hover{
     background-color: #509bd7;
-    padding: 1.4em;
+    padding: 1.2em;
 }
 .flex{
-    padding-top: 1.3em;
+    padding-top: 1.2em;
     padding-right: 26.4em;
     display: flex;
     justify-content: end;

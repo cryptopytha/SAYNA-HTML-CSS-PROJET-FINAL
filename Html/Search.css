@@ -88,7 +88,10 @@ nav a i{
     background-color: #509bd7;
     border: 1px solid #509bd7;
 }
-.col
+.col{
+    background-color: rgba(255, 255, 0, 0.349);
+    border: 1px solid rgba(255, 255, 0, 0.349) ;
+}
 /* pied de search */
 footer{
     color: #fff;

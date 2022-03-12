@@ -69,8 +69,12 @@ nav a i{
     background-color: red;
     border: 1px solid red;
 }
+.bloc1 button a{
+    text-decoration: none;
+    color: #fff;
+}
 input{
-    height: 18m;
+    height: 1.8em;
     text-align: center;
 }
 form h6{
